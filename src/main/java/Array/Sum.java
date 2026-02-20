@@ -1,0 +1,19 @@
+package Array;
+
+public class Sum {
+
+
+    public static int arrSum(int[] arr){
+        int sum = 0;
+
+        for(int i : arr){
+            sum = sum + i;
+        }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+        System.out.println(arrSum(arr));
+    }
+}
